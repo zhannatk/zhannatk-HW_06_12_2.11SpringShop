@@ -9,6 +9,6 @@ public class TypeNeType {
     @ExceptionHandler(NumberFormatException.class)
     public void handlerNumberNeNumber(NumberFormatException e){
         System.out.println("Нужны циферки");
-        throw new MyExcNeedTypeInt("Допустимы только циферки.");
+        throw new MyExcNeedTypeInt("Допустимы только циферки");
     }
 }
