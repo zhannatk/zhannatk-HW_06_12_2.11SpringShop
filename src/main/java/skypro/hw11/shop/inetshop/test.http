@@ -1,0 +1,10 @@
+http://localhost:8080/store/add?id=1
+###
+http://localhost:8080/store/add?id=1,2,3
+###
+http://localhost:8080/store/add?id=1,2,3,cat
+
+
+###
+http://localhost:8080/store/get
+
